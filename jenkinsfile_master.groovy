@@ -9,8 +9,7 @@ stage('maven compile & package') {
         sh ". /etc/profile"
 
 
-        sh "mvn clean install"
-        sh "mv target/iWeb.war target/ROOT.war"
+        echo 'mmmm'
     }
 }
 
