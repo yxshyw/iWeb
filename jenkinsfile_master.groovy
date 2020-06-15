@@ -6,9 +6,7 @@ stage('pull source code') {
 
 stage('maven compile & package') {
     node('master'){
-        sh ". /etc/profile"
-
-
+        allure
         echo 'mmmm'
     }
 }
